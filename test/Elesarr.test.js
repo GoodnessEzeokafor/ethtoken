@@ -48,9 +48,16 @@ contract("ELESARR CONTRACT TOKEN", ([dep, user, user2, user3]) => {
             assert.equal(balanceOfUser.toString(),1000000)
             assert.equal(balanceOfDep.toString(),1000000)
         })
-        it("approves for delegated transfer", async() => {
-            
-        })
+        // it("approves for delegated transfer", async() => {
+        //     await this.contract.approve(user3, 100, {from:dep})
+        // })
+        // it("handles delegated transfer", async() => {
+        //     var fromAccount = user2;
+        //     var toAccount = user3;
+        //     spendingAccount = user4;
+
+        //     await this.contract.transferFrom()
+        // })
     })
     
 })
